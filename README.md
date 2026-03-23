@@ -1,31 +1,31 @@
-# List Comparator Tool
+# ListMaster – List Comparator Tool
 
-**List Comparator Tool** is a simple desktop application built with Python and Tkinter that allows you to compare two text files and find common and different items between them.
+ListMaster is a simple desktop application built with Python and Tkinter that allows you to compare two text files and quickly identify common and unique items.
 
-The program is designed for quick data processing, cleaning, and automation tasks.
+This tool is designed for fast data processing, cleaning, and automation tasks.
 
 ---
 
 ## 🚀 Features
 
 - Compare two text files line by line
-- Find:
-  - common items (present in both files)
-  - different items (unique values)
-- Save results automatically to files
-- Real-time progress display (in %)
-- Simple and clean GUI (one-click operation)
+- Detect:
+  - Common items (present in both files)
+  - Different items (unique values)
+- Automatic saving of results to output files
+- Real-time progress indicator (percentage)
+- Simple GUI – one-click execution
 
 ---
 
 ## 📁 File Structure
 
-Place these files in the same folder as the script:
+Place the following files in the same folder as the script:
 
-- `List1.txt` – first list of items  
-- `List2.txt` – second list of items  
-- `Same.txt` – output file with common items  
-- `Different.txt` – output file with different items  
+- `List1.txt` – first dataset  
+- `List2.txt` – second dataset  
+- `Same.txt` – common items output  
+- `Different.txt` – unique items output  
 
 ---
 
@@ -35,4 +35,4 @@ Place these files in the same folder as the script:
 2. Add your data (one item per line)
 3. Run the program:
    ```bash
-   python your_script_name.py
+   python main.py
